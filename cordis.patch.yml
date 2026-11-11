@@ -1,0 +1,6 @@
+# Register the WorkBuddy one-click check-in Host half. It reads the WorkBuddy
+# (CN) desktop app's existing sign-in, so no separate login flow is started and
+# nothing is checked in until the user presses the button.
+- insert:
+    - id: workbuddy-checkin
+      name: dsh-workbuddy-checkin
